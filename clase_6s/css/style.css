@@ -1,0 +1,58 @@
+/* Importo las fuentes que voy a utilizar */
+@import url();
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecera{
+    /* Background-color: esta de mas, poruqe la tapa la imagen */  
+    background-color: #E6E6E6;
+    background-image: url(../img/logo_batman.png), url(../img/Baticueva.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+    height: 190px;
+    width: 100%;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.titulo, .subtitulo{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.titulo{
+    font-size: 23px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-align: left;
+}
+.espacio{
+    height: 100px;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
+
+

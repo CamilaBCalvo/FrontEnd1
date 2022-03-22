@@ -1,0 +1,29 @@
+/* 
+background-color
+background-size
+background-image
+background-repeat
+background-position
+*/
+
+.container {
+     /*para el contenedor*/
+     border: 2px solid black;
+     height: 600px;
+     width: 100%;
+}
+
+.fondo {
+    background-image: url(../imagenes/Trabajo.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+   
+}
+
+.sun {
+    background-image: url(../imagenes/sol.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Le pone un color de fondo, poruqe el sol del profe era un .png */
+}

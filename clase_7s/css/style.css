@@ -5,25 +5,33 @@ background-image
 background-repeat
 background-position
 */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;500&display=swap');
+</style>
 
-.container {
+body{
+    font-family: 'Red Hat Mono', monospace;
+}
+.tipografia{
+    font-family: 'Red Hat Mono', monospace;
+}
+img{
+    height: 300px;  
+}
+
+.container{
      /*para el contenedor*/
      border: 2px solid black;
-     height: 600px;
-     width: 100%;
+     height: 750px;
+     width: 400px;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: column-reverse;
+     justify-content: space-around;
+     align-items: center;
+     background-color: bisque;
+}
+h3{
+    background-color: bisque;
+    text-align: center;
 }
 
-.fondo {
-    background-image: url(../imagenes/Trabajo.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-   
-}
-
-.sun {
-    background-image: url(../imagenes/sol.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    /* Le pone un color de fondo, poruqe el sol del profe era un .png */
-}

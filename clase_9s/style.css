@@ -53,33 +53,14 @@ h1{
     z-index: 20;
 }
 
-.cuadrado1{
+.cuadrado{
     position: absolute;
     width: 300px;
     height: 336px;
-    left: 32px;
-    top: 485px;
+    justify-content: space-around;
     background: #F3F3F3;
     z-index: 5;
 }
-.cuadrado2{
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 362px;
-    top: 485px;
-    background: #F3F3F3;
-    z-index: 5;
-}
-.cuadrado3{
-    position: absolute;
-    width: 300px;
-    height: 336px;
-    left: 692px;
-    top: 486px;
-    background: #F3F3F3;
-    z-index: 5; }
-
 
 .nombre3{
     position: absolute;
@@ -140,7 +121,6 @@ p{
     position: absolute;
     width: 300px;
     height: 336px;
-    background: #F3F3F3;
     position: absolute;
     width: 267px;
     height: 113px;

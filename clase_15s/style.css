@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: salmon;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input, label, button, textarea{
+    display: block;
+    margin: 4px;
+    width: 80%;
+}
+
+label{
+    font-weight: bold;
+}
+
+.container{
+    background-color: white;
+    margin: 2rem auto;
+    height: 500px;
+    width: 70%;
+    resize: none;
+}
+
+form{
+    padding: 3rem;
+    margin: ;
+
+}
+fieldset{
+    padding: 3rem;
+    margin-bottom: 0.3rem;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check, .label{
+    display: inline;
+    width: 100px;
+}

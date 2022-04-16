@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../clase_15s/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <form class="form" action="send.php" method="get" enctype="multipart/form-data">
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="firstname" id="Nombre" placeholder="Ingrese Nombre" required>
+
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="lastname" id="Apellido" placeholder="Ingrese Apellido" required>
+
+                <label for="Fecha">Fecha de nacimiento</label>
+                <input type="date" name="birthdate" id="Fecha" placeholder="Ingrese decha de nacimiento"
+                    min="2022-04-04" max="2022-05-20">
+
+                <label for="Documento">Documento/Cedula</label>
+                <input type="number" name="Document" id="Documento" min="1000" max="30000000" required>
+
+                <label for="Bio">Bio</label>
+                <textarea name="biografia" id="Bio" cols="10" rows="10"></textarea>
+
+                <label for="foto">Documento/Cedula</label>
+                <input type="file" name="foto" id="foto" accept=".png, .jpg, .jpeg, .svg">
+
+                <label for="Pais">País</label>
+                <select name="country" id="pais" required>
+                    <optgroup label="LATAM">
+                        <option value="">Seleccione un pais</option>
+                        <option value="Arg">Argentina</option>
+                        <option value="Col">Colombia</option>
+                        <option value="PE">Peru</option>
+                    </optgroup>
+                    <optgroup label="EU">
+                        <option value="ESP">España</option>
+                        <option value="GE">Alemania</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de Usuario</legend>
+                <label for="Usuario">Ingrese Domicilio</label>
+                <input type="email" id="Usuario" name="User" required>
+                <label for="Contraseña">Ingrese contraseña</label>
+                <input type="password" id="Contraseña" name="Contraseña" required>
+            </fieldset>
+
+            <fieldset>
+                <label class="label" for="tyc">
+                    Acepto terminos y condiciones <input type="checkbox" name="terms" id="tyc">
+                </label>
+
+                <label for="question">Te gusto la clase?</label>
+                <input class="check" name="pregunta" type="radio" value="SI">Si
+                <input class="check" name="pregunta" type="radio" value="NO">No
+                <input class="check" name="pregunta" type="radio" value="Ni idea">Ni idea
+            </fieldset>
+
+            <div class="toolbar">
+                <button type="submit">Enviar Form</button>
+                <button type="reset">Limpiar Form</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
